@@ -273,11 +273,178 @@ document.write("<b><i>Hello world</b></i>");*/
 // arr[1] = 70;
 // console.log(arr);
 
-let arr = [10, 2, 3, 1000, 4, 5];
-// let ans = arr.sort((a, b) => {
-//   return 0;
+// let arr = [1, 20, 3, 400, 5];
+// console.log(arr.reverse());
+
+// let arr = ["shaad", "apple", "dog", "cat", "job", "saniya", "aam"];
+// console.log(arr.sort());
+
+// let arr = [1, 20, 3, 400, 5];
+// let arr2 = [1, 20, 3, 400, 5];
+// let arr3 = [1, 20, 3, 400, 5];
+// let ans = arr.concat(arr2, arr3);
+// console.log(ans);
+
+// let ans = arr.join("$");
+// console.log(ans);
+
+// arr.unshift(100);
+// arr.unshift(500);
+// arr.unshift(900);
+// arr.unshift(300);
+// console.log(arr);
+// arr.shift();
+// arr.shift();
+// arr.shift();
+// console.log(arr);
+
+// arr.push(100);
+// arr.push(400);
+// arr.push(23);
+// console.log(arr);
+// arr.pop();
+// arr.pop();
+// arr.pop();
+// console.log(arr);
+
+// let arr = [10, 20, 30, 40, 50];
+// let ans = arr.splice();
+// console.log(ans);
+
+// let arr = ["shaad", "rohan", "kunal", "puneet"];
+// let ans = arr.slice(1, 3);
+// console.log(ans);
+
+// let arr = ["shaad", "rohan", "kunal", "tousif"];
+// arr.splice(1, "kuku", "lala", "zinda", "babita");
+// console.log(arr);
+
+// let arr = ["shaad", "rohan", "kunal", "puneet"];
+// let ans = arr.indexOf("rohan", 2);
+// console.log(ans);
+
+// let arr = ["shaad", "rohan", "kunal", "puneet"];
+// let ans = arr.includes("shaad");
+// console.log(ans);
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// let ans = arr.findIndex((value) => {
+//   return value > 5;
 // });
 // console.log(ans);
 
-arr.reverse();
-console.log(arr);
+// let arr = ["shaad", "shoreb", "sehfeen"];
+// let ans = arr.toString();
+// console.log(ans);
+
+// let ans = arr.fill("ram");
+// console.log(ans);
+
+// let arr = ["shaad", "shoreb", "sehfeen", 10, 20, 30, 40];
+// arr.forEach((value) => {
+//   console.log(value);
+// });
+// arr.forEach((value) => {
+//   console.log(value);
+// });
+
+// let obj = {
+//   name: "shaad",
+//   age: 30,
+//   city: "indore",
+//   address: {
+//     wwe: "near",
+//     animal: "cat",
+//   },
+//   state: "MP",
+//   marks: [1, 2, 3, 4, 5],
+//   sum(a, b) {
+//     console.log(a + b);
+//   },
+// };
+// console.log(obj);
+// console.log(obj.address.animal);
+// console.log(obj.name);
+// console.log(obj["name"]);
+// obj.sum(10, 20);
+// console.log(obj.marks[1]);
+
+// let arr = [
+//   { name: "ram", age: 30, city: "indore" },
+//   { name: "shaad", age: 8, city: "jaipur" },
+//   { name: "sima", age: 16, city: "bajnia" },
+// ];
+// console.log(arr);
+
+// const arr = [1, 2, 3, 4, 5];
+// arr[0] = 100;
+// arr[2] = 500;
+// arr[3] = 700;
+// console.log(arr);
+
+// const obj = {
+//   name: "shaad",
+//   age: 22,
+// };
+
+// obj.name = "tousif";
+// console.log(obj.name);
+
+// const obj = {
+//   name: "shaad",
+//   age: 40,
+//   city: "indore",
+// };
+
+// for (let value in obj) {
+//   console.log(value, obj[value]);
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// let ans = arr.map((value) => {
+//   return value * 100;
+// });
+// console.log(ans);
+
+// let arr = [
+//   { name: "ram", age: 30, city: "indore" },
+//   { name: "shaad", age: 8, city: "jaipur" },
+//   { name: "sima", age: 16, city: "bajnia" },
+// ];
+
+// let ans = arr.map((value) => {
+//   return value.name + " " + value.age;
+// });
+// console.log(ans);
+
+// let str = 40;
+// console.log(str);
+// let ans = str.toString();
+// console.log(ans);
+// console.log(str.toLowerCase());
+// console.log(str.toUpperCase());
+// console.log(str.includes("a"));
+// console.log(str.startsWith("Shaad"));
+// console.log(str.endsWith("Madani"));
+// console.log(str.search("madani"));
+// console.log(str.match(/Ali/g));
+// console.log(str.indexOf("a"));
+// console.log(str.lastIndexOf("a"));
+// console.log(str.replace("Shaad", "luttan"));
+// console.log(str.trim());
+// console.log(str.charAt(4));
+
+// let a = true;
+
+// let num = Number(a);
+// console.log(num);
+
+// let a = "your age is 99 how is it";
+// let ans = Number.parseInt(a);
+// console.log(ans);
+
+// let a = Math.PI;
+// console.log(a);
+
+// let now = new Date();
+// console.log(now.getDate() + "/" + now.getMonth() + "/" + now.getFullYear());
