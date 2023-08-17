@@ -448,3 +448,7 @@ document.write("<b><i>Hello world</b></i>");*/
 
 // let now = new Date();
 // console.log(now.getDate() + "/" + now.getMonth() + "/" + now.getFullYear());
+
+let date = new Date();
+date.setDate(20);
+console.log(date);
