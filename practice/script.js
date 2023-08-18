@@ -449,6 +449,23 @@ document.write("<b><i>Hello world</b></i>");*/
 // let now = new Date();
 // console.log(now.getDate() + "/" + now.getMonth() + "/" + now.getFullYear());
 
-let date = new Date();
-date.setDate(20);
-console.log(date);
+// let date = new Date();
+// date.setDate(20);
+// console.log(date);
+
+// let ans = 67;
+// console.log(Math.PI);
+
+// let date = new Date();
+// console.log(date);
+
+// console.log(date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear());
+// console.log(`${date.getDate()}-${date.getMonth()}-${date.getFullYear()}`);
+
+// console.log(date.getDay(4));
+// console.log(date.getFullYear());
+// console.log(date.getHours());
+// console.log(date.getMilliseconds());
+// console.log(date.getMinutes());
+// console.log(date.getMonth());
+// console.log(date.getSeconds());
