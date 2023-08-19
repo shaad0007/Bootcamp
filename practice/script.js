@@ -469,3 +469,25 @@ document.write("<b><i>Hello world</b></i>");*/
 // console.log(date.getMinutes());
 // console.log(date.getMonth());
 // console.log(date.getSeconds());
+
+// console.log(Number.MIN_SAFE_INTEGER);
+// let num = 10675574564535436534635768567n;
+// if (num <= Number.MAX_SAFE_INTEGER) {
+//   console.log("yes");
+// } else {
+//   console.log("No");
+// }
+
+const date = new Date();
+console.log(new Intl.DateTimeFormat("hi-IN").format(date));
+
+console.log(new Intl.DateTimeFormat(["ban", "id"]).format(date));
+
+console.log(
+  new Intl.DateTimeFormat("en-GB", {
+    dateStyle: "full",
+    timeStyle: "long",
+    timeZone: "Australia/Sydney",
+  }).format(date)
+);
+// Expected output: "Sunday, 20 December 2020 at 14:23:16 GMT+11"
