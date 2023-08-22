@@ -478,16 +478,16 @@ document.write("<b><i>Hello world</b></i>");*/
 //   console.log("No");
 // }
 
-const date = new Date();
-console.log(new Intl.DateTimeFormat("hi-IN").format(date));
+// const date = new Date();
+// console.log(new Intl.DateTimeFormat("hi-IN").format(date));
 
-console.log(new Intl.DateTimeFormat(["ban", "id"]).format(date));
+// console.log(new Intl.DateTimeFormat(["ban", "id"]).format(date));
 
-console.log(
-  new Intl.DateTimeFormat("en-GB", {
-    dateStyle: "full",
-    timeStyle: "long",
-    timeZone: "Australia/Sydney",
-  }).format(date)
-);
+// console.log(
+//   new Intl.DateTimeFormat("en-GB", {
+//     dateStyle: "full",
+//     timeStyle: "long",
+//     timeZone: "Australia/Sydney",
+//   }).format(date)
+// );
 // Expected output: "Sunday, 20 December 2020 at 14:23:16 GMT+11"
